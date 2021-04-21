@@ -8,8 +8,7 @@ Pod::Spec.new do |s|
   s.author       = { "suzuki_keishi" => "keishi.1983@gmail.com" }
   s.source       = { :git => "https://github.com/suzuki-0000/CountdownLabel.git", :tag => s.version }
   s.platform     = :ios, "8.2"
-  s.source_files = 'CountdownLabel/source/*.swift'
-  s.source_files = 'CountdownLabel/source/**/*.swift'
-  s.requires_arc = true
+  s.source_files = 'Sources/CountdownLabel/*.swift'
+  s.source_files = 'Sources/CountdownLabel/**/*.swift'
   s.frameworks   = "UIKit"
 end
